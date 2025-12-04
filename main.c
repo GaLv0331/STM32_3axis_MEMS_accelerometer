@@ -124,6 +124,10 @@ int main(void)
 	config[1] = 0x01;
 	HAL_SPI_Transmit_IT(&hspi1, config, 2);
 	HAL_GPIO_WritePin(GPIOE, GPIO_PIN_3, GPIO_PIN_SET);
+	/*
+	* @brief: chnage this into baremetal or something for experienece
+	*/
+	
   /* USER CODE END 2 */
 
   /* Infinite loop */
